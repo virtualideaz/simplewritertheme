@@ -22,7 +22,7 @@
     display: block;
     width: 100%;
     text-align: center;
-    background: (..crafty.jpg) no-repeat center center scroll;
+    background: url(../gh-pages/crafty.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
