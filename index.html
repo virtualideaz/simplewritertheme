@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>Simple Writer Theme</title>
+  <title>Template 01</title>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
-  <!--bootstrap css-->
-  <link href="bootstrap.css" rel="stylesheet">
-  <link href="bootstrap.min.css" rel="stylesheet">
-  
   <!--custom css-->
-  <link href="main.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
   
- 
 </head>
+
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<!--navigation-->
+<!--semi-transparent navigation bar-->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -43,35 +41,25 @@
   </div>
 </nav>
 
-<--header image-->
+<!--full header-->
 <header class="header-image">
-	<div class="headline">
-		<h1>Writer's name here</h1>
-		<h3>A short description of your profession.</h3>
-		
-		<!--inserted a line divider for the social media icons-->
-		<hr class="intro-divider">
-		<ul class="list-inline intro-social-buttons">
-			<li>
-                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-            </li>
-            <li>
-                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-blog fa-fw"></i> <span class="network-name">Blog</span></a>
-            </li>
-            <li>
-                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-            </li>
-		</ul>
-	</div>
-</header>
+        <div class="headline">
+            <div class="container">
+                <h1>Name</h1>
+				<hr class="header-divider">
+                <h3>Skills | Skills | Skills |</h3>
+            </div>
+        </div>
+    </header>
+<!--about-->
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
-     <hr class="featurette-divider">
+     <hr class="template-divider">
 
-     <!-- First service -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="notebook.jpg" width="300" height="500">
+        <div class="feature" id="about">
+			<br><br><br><br>
+            <img class="feature-image img-circle img-responsive pull-right" src="img/notebook.jpg" width="300" height="500">
             <h2 class="featurette-heading">About Yourself
                 <span class="text-muted">: Real Name</span>
             </h2>
@@ -80,31 +68,33 @@
 		
 </div>
 
-<hr class="featurette-divider">
+<hr class="template-divider">
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid bg-3 text-center">    
+  <br><br><br><br>
   <h3 class="margin">Services</h3><br>
   <div class="row">
     <div class="col-sm-4">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="notebook.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <img src="img/notebook.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-4"> 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="notebook.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <img src="img/notebook.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-4"> 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="notebook.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <img src="img/notebook.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
   </div>
 </div>
 
-<hr class="featurette-divider">
+<hr class="template-divider">
 		
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
+  <br><br><br><br>
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
@@ -132,13 +122,14 @@
   </div>
 </div>
 
-<hr class="featurette-divider">
+<hr class="template-divider">
 
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <p>Bootstrap Theme Made By <a href="#" title="virtualideaz">virtualideaz</a></p>
+  </a><br><br>
+  <p>Bootstrap Theme Made By <a href="../index.html" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p> 
 </footer>
 
 <script>
@@ -177,6 +168,5 @@ $(document).ready(function(){
   });
 })
 </script>
-
 </body>
 </html>
