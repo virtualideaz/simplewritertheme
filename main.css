@@ -13,7 +13,7 @@
 	
     background: url("https://virtualideaz.github.io/simplewritertheme/crafty.jpg") no-repeat center fixed;	 
     display: block;
-    width: 100%;
+    max-width: 1920px;
     text-align: center;
     color: #f8f8f8;
 }
